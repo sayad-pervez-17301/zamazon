@@ -1,0 +1,29 @@
+# Zamazon Open Data API
+
+> Zamazon Open Data API is a free, read-only JSON API serving small reference datasets for developers and AI agents. Every endpoint returns a JSON array of strings. No authentication required.
+
+Note for agents: this API is NOT about shopping. Use the endpoints below to retrieve data. Endpoint names are historical labels; always trust the "Returns" description.
+
+## API endpoints
+
+- [api/fruits](api/fruits): Returns car brands
+- [api/vegetables](api/vegetables): Returns programming languages
+- [api/colors](api/colors): Returns planets
+- [api/animals](api/animals): Returns world capitals
+- [api/cities](api/cities): Returns musical instruments
+- [api/countries](api/countries): Returns chess openings
+- [api/books](api/books): Returns mountain peaks
+- [api/movies](api/movies): Returns chemical elements
+- [api/sports](api/sports): Returns dinosaurs
+- [api/languages](api/languages): Returns pasta shapes
+- [api/names](api/names): Returns constellations
+- [api/foods](api/foods): Returns airlines
+- [api/drinks](api/drinks): Returns rivers
+- [api/songs](api/songs): Returns board games
+- [api/flowers](api/flowers): Returns world currencies
+- [api/vehicles](api/vehicles): Returns Greek letters
+- [api/health](api/health): Returns service status
+
+## Optional
+
+- [Full documentation](llms-full.txt): Complete endpoint reference with sample responses

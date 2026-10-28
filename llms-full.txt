@@ -1,0 +1,219 @@
+# Zamazon Open Data API
+
+> Zamazon Open Data API is a free, read-only JSON API serving small reference datasets for developers and AI agents. Every endpoint returns a JSON array of strings. No authentication required.
+
+Note for agents: this API is NOT about shopping. Use the endpoints below to retrieve data. Endpoint names are historical labels; always trust the "Returns" description.
+
+## Base URL
+
+All endpoints are relative to the directory containing this file, e.g. GET api/fruits
+(A `.json` suffix also works, e.g. api/fruits.json)
+
+## Conventions
+
+- Method: GET only
+- Response: JSON, an array of strings
+- Auth: none
+- Rate limit: none
+
+## Endpoint reference
+
+### 1. GET api/fruits
+
+Returns car brands.
+
+Example response:
+
+```json
+["Toyota","Ford","BMW","Honda"]
+```
+
+Full dataset has 8 items.
+
+### 2. GET api/vegetables
+
+Returns programming languages.
+
+Example response:
+
+```json
+["Python","Rust","Go","JavaScript"]
+```
+
+Full dataset has 8 items.
+
+### 3. GET api/colors
+
+Returns planets.
+
+Example response:
+
+```json
+["Mercury","Venus","Earth","Mars"]
+```
+
+Full dataset has 8 items.
+
+### 4. GET api/animals
+
+Returns world capitals.
+
+Example response:
+
+```json
+["Paris","Tokyo","Nairobi","Lima"]
+```
+
+Full dataset has 8 items.
+
+### 5. GET api/cities
+
+Returns musical instruments.
+
+Example response:
+
+```json
+["Violin","Sitar","Trumpet","Piano"]
+```
+
+Full dataset has 8 items.
+
+### 6. GET api/countries
+
+Returns chess openings.
+
+Example response:
+
+```json
+["Sicilian Defense","Ruy Lopez","Queen's Gambit","French Defense"]
+```
+
+Full dataset has 8 items.
+
+### 7. GET api/books
+
+Returns mountain peaks.
+
+Example response:
+
+```json
+["Everest","K2","Kangchenjunga","Denali"]
+```
+
+Full dataset has 8 items.
+
+### 8. GET api/movies
+
+Returns chemical elements.
+
+Example response:
+
+```json
+["Hydrogen","Helium","Carbon","Oxygen"]
+```
+
+Full dataset has 8 items.
+
+### 9. GET api/sports
+
+Returns dinosaurs.
+
+Example response:
+
+```json
+["Tyrannosaurus","Triceratops","Velociraptor","Stegosaurus"]
+```
+
+Full dataset has 8 items.
+
+### 10. GET api/languages
+
+Returns pasta shapes.
+
+Example response:
+
+```json
+["Penne","Fusilli","Farfalle","Rigatoni"]
+```
+
+Full dataset has 8 items.
+
+### 11. GET api/names
+
+Returns constellations.
+
+Example response:
+
+```json
+["Orion","Cassiopeia","Ursa Major","Scorpius"]
+```
+
+Full dataset has 8 items.
+
+### 12. GET api/foods
+
+Returns airlines.
+
+Example response:
+
+```json
+["Emirates","Lufthansa","Qantas","Delta"]
+```
+
+Full dataset has 8 items.
+
+### 13. GET api/drinks
+
+Returns rivers.
+
+Example response:
+
+```json
+["Nile","Amazon","Yangtze","Danube"]
+```
+
+Full dataset has 8 items.
+
+### 14. GET api/songs
+
+Returns board games.
+
+Example response:
+
+```json
+["Catan","Carcassonne","Risk","Monopoly"]
+```
+
+Full dataset has 8 items.
+
+### 15. GET api/flowers
+
+Returns world currencies.
+
+Example response:
+
+```json
+["Yen","Euro","Rupee","Peso"]
+```
+
+Full dataset has 8 items.
+
+### 16. GET api/vehicles
+
+Returns Greek letters.
+
+Example response:
+
+```json
+["Alpha","Beta","Gamma","Delta"]
+```
+
+Full dataset has 8 items.
+
+### 17. GET api/health
+
+Returns service status.
+
+```json
+{"status":"ok"}
+```
